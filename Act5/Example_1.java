@@ -6,3 +6,4 @@ public class Example_1 {
         System.out.println("Main thread gets the result: " + cr.getResults());
     }
 }
+
