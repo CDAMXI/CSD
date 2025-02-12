@@ -1,3 +1,5 @@
+package Act5_Tema1;
+
 public class CalculateResults extends Thread{
     private String result = "Not Calculated";
 
@@ -12,3 +14,4 @@ public class CalculateResults extends Thread{
 
     public String getResults(){return result;}
 }
+
