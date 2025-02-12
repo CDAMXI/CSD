@@ -1,5 +1,3 @@
-package Act5;
-
 public class CalculateResults extends Thread{
     private String result = "Not Calculated";
 
