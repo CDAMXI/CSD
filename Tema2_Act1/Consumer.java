@@ -14,9 +14,7 @@ public class Consumer extends Thread{
             System.out.println("Consumer #" + this.cname + " got: " + value);
             try {
                 Thread.sleep((int) (Math.random() * 100));
-            } catch (InterruptedException e) {
-                
-            }
+            } catch (InterruptedException e) {}
         }
     }
 }

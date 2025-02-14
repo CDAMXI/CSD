@@ -13,9 +13,7 @@ public class Producer extends Thread{
             System.out.println("Producer #" + this.pname + " put: " + i);
             try {
                 Thread.sleep((int) (Math.random() * 100));
-            } catch (InterruptedException e) {
-                
-            }
+            } catch (InterruptedException e) {}
         }
     }
 }
