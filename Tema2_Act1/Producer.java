@@ -7,6 +7,7 @@ public class Producer extends Thread{
         box = c;
         this.pname = pname;
     }
+    
     public void run(){
         for (int i = 0; i < 10; i++) {
             box.put(i);

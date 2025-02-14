@@ -7,6 +7,7 @@ public class Consumer extends Thread{
         box = c;
         this.cname = cname;
     }
+    
     public void run(){
         for (int i = 0; i < 10; i++) {
             int value = 0;
