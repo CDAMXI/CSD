@@ -5,7 +5,7 @@ public class Box1{
     private boolean full = false;
 
     public int get(){
-        if (full) {Thread.yield();}
+        if (!full) {Thread.yield();}
         int value = content;
         content = 0;
         full = false;

@@ -5,7 +5,7 @@ public class Box2 {
     private boolean full = false;
 
     public synchronized int get(){
-        while (full) {Thread.yield();}
+        while (!full) {Thread.yield();}
         int value = content;
         content = 0;
         full = false;
