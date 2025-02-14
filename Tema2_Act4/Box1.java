@@ -4,7 +4,7 @@ public class Box1{
     private int content = 0;
     private boolean full = false;
 
-    public int get(){
+    public synchronized int get(){
         if (!full) {Thread.yield();}
         int value = content;
         content = 0;
@@ -12,7 +12,7 @@ public class Box1{
         return value;
     }
 
-    public void put(int value){
+    public synchronized void put(int value){
         if (full) {Thread.yield();}
         content = value;
         full = true;
