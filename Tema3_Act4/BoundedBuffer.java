@@ -1,3 +1,5 @@
+package Tema3_Act4;
+
 public class BoundedBuffer {
     private int first, last;
     private int numItems, capacity;

@@ -1,3 +1,5 @@
+package Tema3_Act4;
+
 public class ProducerConsumer {
     static BoundedBuffer buf = new BoundedBuffer(1);
 
