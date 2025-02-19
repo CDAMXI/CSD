@@ -1,4 +1,4 @@
-package Act5_Tema1;
+package Tema1_Act5;
 
 public class CalculateResults extends Thread{
     private String result = "Not Calculated";

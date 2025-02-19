@@ -1,4 +1,4 @@
-package Act6_Tema1;
+package Tema1_Act6;
 
 public class SimpleThreads {
 
